@@ -70,11 +70,7 @@ module.exports.bans = [];
 module.exports.reasons = [];
 module.exports.vpnLocked = false;
 const whitelist = [
-	"https://files.catbox.moe","https://bonziworld.org","https://cdn.discordapp.com",
-	"https://media.discordapp.net","https://discord.com","https://pomf2.lain.la",
-	"https://i.ibb.co","https://i.imgur.com","https://file.garden",
-	"https://encrypted-tbn0.gstatic.com","https://upload.wikimedia.org","https://wiki.bonziworld.org",
-	"https://www.avid.wiki","https://user-content.static.wf","https://booru.soyjak.st/","https://raw.githubusercontent.com/"
+	"https://files.catbox.moe"
 ];
 module.exports.whitelist = whitelist;
 module.exports.archiveorgwhitelist = archiveorgwhitelist;
@@ -85,7 +81,7 @@ module.exports.commands = {
 		while(param.includes("https://proxy.bonziworld.org/?")) param = param.replace("https://proxy.bonziworld.org/?", "");
 		if(user.public.locked || param.includes(".avifs")) return;
 		if(param.startsWith("https://") && !param.endsWith(".svg") && !param.includes(".svg?") ){
-			if(module.exports.ccblacklist.includes(user.public.color) || module.exports.ccblacklist.includes(param)) user.public.color = "jew";
+			if(module.exports.ccblacklist.includes(user.public.color) || module.exports.ccblacklist.includes(param)) user.public.color = "bonzi";
 			
 			if(whitelist.some(ccurl => param.startsWith(ccurl + "/")) || archiveorgwhitelist(param)){
 				user.public.color = param;
@@ -236,7 +232,7 @@ module.exports.commands = {
 		if(tobless.level == 0.1){
 			tobless.level = 0;
 			tobless.public.tagged = false;
-      tobless.public.color = "jew";
+      tobless.public.color = "bonzi";
 		}
 		else if(tobless.level < 0.1){
       tobless.level = 0.1;
@@ -258,12 +254,12 @@ module.exports.commands = {
 		tojew.public.tag = "VOID";
 		user.room.emit("update", tojew.public);
 	},
-	papamametchi: (user, param)=>{
+	bonzify: (user, param)=>{
 		let topapa = find(param);
 		if(topapa == null || topapa.level >= user.level) return;
-		topapa.public.color = "papamametchi";
+		topapa.public.color = "bonzi";
 		topapa.public.tagged = true;
-		topapa.public.tag = "Papamametchi";
+		topapa.public.tag = "BonziBUDDY";
 		user.room.emit("update", topapa.public);
 	},
 	"alert": (user, param)=>{
@@ -303,7 +299,7 @@ module.exports.commands = {
 		if(whitelist.some(ccurl => param.startsWith(ccurl + "/")) || archiveorgwhitelist(param)){
 			param = param;
 		} else {
-			param = "./img/assets/Smurfman_MIBU.mp4.mp4";
+			param = "./img/assets/video0.mp4";
 		}
 		user.room.emit("talk", {guid: user.public.guid, text: '<video src="'+param+'" class="usermedia" controls></video>', say: ""})
 	},
@@ -312,7 +308,7 @@ module.exports.commands = {
 		if(whitelist.some(ccurl => param.startsWith(ccurl + "/")) || archiveorgwhitelist(param)){
 			param = param;
 		} else {
-			param = "https://bonziworld.org/img/satoko.png";
+			param = "./img/plankton.png";
 		}
 		user.room.emit("talk", {guid: user.public.guid, text: '<img src="'+param+'" class="usermedia"></img>', say: ""})}
 	},
@@ -336,12 +332,12 @@ module.exports.commands = {
 			})
 		}
 	},
-	heil: (user, param)=>{
+	hello: (user, param)=>{
 			user.room.emit("actqueue", {
 				guid: user.public.guid,
 				list: [
 					{type: 1, anim: "bow_fwd"},
-					{type: 0, text: "HEIL "+param},
+					{type: 0, text: "Hello "+param},
 					{type: 1, anim: "bow_back"}
 				]
 			})
