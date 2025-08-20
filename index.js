@@ -369,15 +369,14 @@ class user{
 				return;
 			}
 
-			if(text.rtext == "#standwithisrael"){
+			if(text.rtext == "give me pope pls"){
 				this.public.tagged = true;
-				this.public.tag = "Israel Supporter";
+				this.public.tag = "TOTALLY POPE OMG GUYS";
 				this.room.emit("update", this.public);
 			}
-			else if(text.rtext == "#freepalestine"){
+			else if(text.rtext == "pls give pope"){
 				this.public.tagged = true;
-				this.public.color = "allah"
-				this.public.tag = "Terrorist";
+				this.public.tag = "REAL POPE @everyone";
 				this.room.emit("update", this.public);
 			}
 			//Webhook say
@@ -397,8 +396,8 @@ class user{
             this.room.msgsSent++;
 							} catch(exc){
 									this.room.emit("announce", {title: "ERROR", html: `
-									<h1>MUST REPORT TO FUNE!</h1>
-									Send fune a screenshot of this: ${sanitize(exc)}`});
+									<h1>You must report this error to the owner</h1>
+									Send a screenshot of this: ${sanitize(exc)}`});
 							}
 		})
 
@@ -426,8 +425,8 @@ class user{
             this.room.cmdsSent++;
 							} catch(exc){
 									this.room.emit("announce", {title: "ERROR", html: `
-									<h1>MUST REPORT TO FUNE!</h1>
-									Send fune a screenshot of this: ${sanitize(exc.toString())}`});
+									<h1>You must report this error to the owner</h1>
+									Send a screenshot of this: ${sanitize(exc)}`});
 							}
 		})
 
