@@ -2,7 +2,7 @@
 	"start": [
 		[
 			{"type": 0, "text": "Yeah, of course {NAME} wants me to tell a joke."},
-			{"type": 0, "text": "\"Haha, look at the stupid {COLOR}{TYPE} telling jokes!\" Fuck you. It isn't funny."},
+			{"type": 0, "text": "\"Haha, look at the stupid guy named {NAME} telling jokes!\" Fuck you. It isn't funny."},
 			{"type": 0, "text": "But I'll do it anyway. Because you want me to. I hope you're happy."}
 		],
 		[
@@ -13,20 +13,20 @@
 		[{"type": 0, "text": "{NAME} used /joke. Whoop-dee-fucking doo."}],
 		[{"type": 0, "text": "HEY YOU IDIOTS ITS TIME FOR A JOKE"}],
 		[{"type": 0, "text": "Senpai {NAME} wants me to tell a joke."}],
-		[{"type": 0, "text": "Hey niggers prepare for a joke."}],
-		[{"type": 0, "text": "Prepare to be offended faggots."}],
+		[{"type": 0, "text": "Good day fellas it's me skibidi4ltu and today i will tell a joke", "say": "Good day fellas. It's me. Skibidi for l t u. And today. I will tell a joke."}],
+		[{"type": 0, "text": "Holy shit guys i found a funny joke look!"}],
 		[
-			{"type": 0, "text": "Kill yourself like a trans person, {NAME}"},
-			{"type": 0, "text": "I'm not here to entertain you."}
+			{"type": 0, "text": "I'm not here to entertain you, {NAME}"},
+			{"type": 0, "text": "But i'll tell a joke anyway"}
 		],
 		[
-			{"type": 0, "text": "Prepare for something Seamus never heard of, {NAME}"},
+			{"type": 0, "text": "Hey {NAME}, prepare for something redditors never heard of"},
 			{"type": 1, "anim": "praise_fwd"},
 			{"type": 0, "text": "HUMOUR"},
 			{"type": 1, "anim": "praise_back"}
 		],
-		[{"type": 0, "text": "THE FOLLOWING JOKE MAY OFFEND PEOPLE. IF YOU ARE OFFENDED, PLEASE GO TO GOATSE.INFO"}],
-		[{"type": 0, "text": "Ready for some classic Jewish comedy?"}],
+		[{"type": 0, "text": "THE FOLLOWING JOKE MAY NOT BE FUNNY."}],
+		[{"type": 0, "text": "Ready for some TOTALLY FUNNY JOKES?"}],
 		[{"type": 0, "text": "Time for whatever horrible fucking jokes the creator of this site wrote."}]
 	],
 	"middle": [
@@ -59,7 +59,8 @@
 			{"type": 0, "text": "Why did the chicken cross the road?"},
 			{"type": 1, "anim": "shrug_back"},
 			{"type": 0, "text": "Ok, let's get serious. I'll let you in on a little secret the feds don't want you knowing."},
-			{"type": 0, "text": "Phones have a secret \"Instant Charging\" feature, you can enable it by microwaving your phone."}
+			{"type": 0, "text": "Phones have a secret \"Instant Charging\" feature, you can enable it by connecting it to your laptop or computer and downloading an app named \"Instant Charging\"."},
+			{"type": 0, "text": "What? You don't have a Personal Computer? Boohoo then."}
 		],
 		[
 			{"type": 0, "text": "What do you call a man who shaves 10 times a day?"},
@@ -67,52 +68,57 @@
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "Why can't asians drive?"},
-			{"type": 0, "text": "Because their eyes are always closed!"},
+			{"type": 0, "text": "Who is the greediest person on earth?"},
+			{"type": 0, "text": "Actually, it's a tie between Mr. Krabs, Bill Gates and whoever is the owner of Apple!"},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "Black lives matter is a joke."},
-			{"type": 0, "text": "WHITE LIVES MATTER!"},
+			{"type": 0, "text": "The joke is porn."},
+			{"type": 0, "text": "Wait, why aren't you laughing?"},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
 			{"type": 0, "text": "Why was six afraid of seven?"},
-			{"type": 0, "text": "Because seven was a sex offender!"},
+			{"type": 0, "text": "Six hasn't been the same since he left Vietnam. He can seldom close his eyes without opening them again at fear of Charlies lurking in the jungle trees. Not that you could ever see the bastards, mind you. They were swift, and they knew their way around the jungle like nothing else. He remembers the looks on the boys' faces as he walked into that village and... oh, Jesus. The memories seldom left him, either. Sometimes he'd reminisce - even hear - Tex's southern drawl. He remembers the smell of Brooklyn's cigarettes like nothing else. He always kept a pack of Lucky's with him. The boys are gone, now. He knows that, it's just that he forgets, sometimes. And, every now and then, the way that seven looks at him with avid concern in his eyes... it makes him think. Sets him on edge. Makes him feel like he's back there... in the jungle."},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "NIGGER NIGGER NIGGER NIGGER NIGGER NIGGER NIGGER NIGGER"},
+			{"type": 0, "text": "Actually i forgot the joke."},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "Why can't bfdi niggers graduate?"},
-			{"type": 0, "text": "Because they still have to repeat kindergarten!"},
+			{"type": 0, "text": "Who lives in a pineapple under the sea?"},
+			{"type": 0, "text": "A stupid sponge jmikjgifgifjgnfjpogjkfjngnjjnokjgkrjhgifiogjiofgiofoogr [[lol that was so funnj"},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "Who did the evil hohol piggy blame for his mistakes?"},
-			{"type": 0, "text": "Putain"},
+			{"type": 0, "text": "Why did the chicken cross the road?"},
+			{"type": 0, "text": "Weed Eater"},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "How many arabs does it take to knock down a lightbulb?"},
-			{"type": 0, "text": "I don't know but just a few can knock down 2 towers."},
+			{"type": 0, "text": "What is the solution to the equation 2+2?"},
+			{"type": 0, "text": "Weed Eater"},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "What do you call an autistic child with herpes?"},
-			{"type": 0, "text": "Seamus Kendrick Cremeens from Sullivan, Ohio."},
+			{"type": 0, "text": "\"Hey i just met Joe\", Person 1 said."},
+			{"type": 0, "text": "\"Who's Joe?\", a distant voice asks."},
+			{"type": 0, "text": "Instantly everyone nearby hears the sound of 1000s of bricks rapidly shuffling towards his location."},
+			{"type": 0, "text": "The earth itself seemed to cry out in agony, until finally the ground itself split open and a horrific creature crawled from the ground, covered in mucus and tar."},
+			{"type": 0, "text": "\"Joe Momma…\" the creature whispered."},
+			{"type": 0, "text": "The man cried out in pain as he disintegrated into dust, and the whole world fell silent in fear."},
+			{"type": 0, "text": "\"I did a little trolling.\" the wretched creature remarked before burrowing back into the earth."},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "Humans are like jokes."},
-			{"type": 0, "text": "Not everyone likes the dark ones!"},
+			{"type": 0, "text": "I can't fucking take it any more. Among Us has singlehandedly ruined my life. The other day my teacher was teaching us Greek Mythology and he mentioned a pegasus and I immediately thought 'Pegasus? more like Mega Sus!!!!' and I've never wanted to kms more. I can't look at a vent without breaking down and fucking crying. I can't eat pasta without thinking 'IMPASTA??? THATS PRETTY SUS!!!!' Skit 4 by Kanye West. The lyrics ruined me. A Mongoose, or the 25th island of greece. The scientific name for pig. I can't fucking take it anymore."},
+			{"type": 0, "text": "Please fucking end my suffering."},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "I like KFC, I have no water and I have huge lips. Who am I?"},
-			{"type": 0, "text": "A stinky black nigger!"},
+			{"type": 0, "text": "Who's Joe?"},
+			{"type": 0, "text": "Joe Mamma."},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
@@ -140,7 +146,7 @@
 		],
 		[
 			{"type": 0, "text": "Laughter is the best medicine!"},
-			{"type": 0, "text": "Apart from meth."}
+			{"type": 0, "text": "It makes your lifespan higher!"}
 		],
 		[
 			{"type": 0, "text": "Don't judge me on my sense of humor alone."},
@@ -148,8 +154,8 @@
 		],
 		[{"type": 0, "text": "Where do I come up with these? My ass?"}],
 		[{"type": 0, "text": "NOW LAUGH!"}],
-		[{"type": 0, "text": "You should tell these jokes to your mother!"}],
-		[{"type": 0, "text": "I hope you're offended."}],
+		[{"type": 0, "text": "You should tell these jokes to your mother! Or even your dad!"}],
+		[{"type": 0, "text": "I hope you liked that."}],
 		[{"type": 0, "text": "Maybe I'll keep my day job, {NAME}. Patreon didn't accept me."}]
 	]
 }
