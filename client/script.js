@@ -1144,7 +1144,7 @@ var resetSock = () => {
                                 type: 0,
                                 name: "Ask to shut up",
                                 callback: (passthrough)=>{
-                                    socket.emit("talk", passthrough.pub.name+" will you shut up?!"));
+                                    socket.emit("talk", passthrough.pub.name+" will you shut up?!")
                                 }
                             },
                         ]
