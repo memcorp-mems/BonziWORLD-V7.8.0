@@ -1067,9 +1067,9 @@ var resetSock = () => {
                       items: [
                         {
                             type: 0,
-                            name: "Heil",
+                            name: "Greet",
                             callback: (passthrough)=>{
-                                socket.emit("command", {command: "heil", param: passthrough.pub.name});
+                                socket.emit("command", {command: "hello", param: passthrough.pub.name});
                             }
                         },
                         {
@@ -1128,23 +1128,23 @@ var resetSock = () => {
                             },
                             {
                                 type: 0,
-                                name: "Pastule",
+                                name: "Call an idiot",
                                 callback: (passthrough)=>{
-                                    socket.emit("talk", passthrough.pub.name+" stop being a pastule.")
+                                    socket.emit("talk", passthrough.pub.name+" you blithering idiot.")
                                 }
                             },
                             {
                                 type: 0,
-                                name: settings.under ? "BLOCKED" : "Niggerify",
+                                name: "Call an Alt",
                                 callback: (passthrough)=>{
-                                    socket.emit("talk", passthrough.pub.name+" hey guess what, you're a nigger!")
+                                    socket.emit("talk", passthrough.pub.name+" hey guess what, you're an alt!")
                                 }
                             },
                             {
                                 type: 0,
-                                name: "Ask to KYS",
+                                name: "Ask to shut up",
                                 callback: (passthrough)=>{
-                                    socket.emit("talk", passthrough.pub.name+"(don't) kill yourself" + (Math.random()>0.5 ? " like a tranny." : " NOW!"));
+                                    socket.emit("talk", passthrough.pub.name+" will you shut up?!"));
                                 }
                             },
                         ]
