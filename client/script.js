@@ -488,7 +488,7 @@ var resetSock = () => {
             new msWindow('Mini BonziWORLD',`
                 <div id="minicont"style="display:flex;flex-direction:column;width:max-content;max-width:`+(window.innerWidth/1.8)+`;">
                 <p id="dialoguemini">Useful for things such as being in<br>multiple rooms or whatever.</p>
-                <iframe src="https://bonziworld.org/mini.html" width="`+(window.innerWidth/2)+`" height="400">Loading...</iframe></div>
+                <iframe src="./mini.html" width="`+(window.innerWidth/2)+`" height="400">Loading...</iframe></div>
                     <button style="width:80px;height:30px;" class="msBtn" onclick="$('dialoguemini').innerText = 'Mini BonziWORLD';$('minicont').style.width = '30px';$('minicont').style.height = '30px';var r = this.onclick;this.innerText = 'Display Mini BW'; this.onclick = () => {this.onclick = r; $('minicont').style.width='`+(window.innerWidth/2+100)+`px'; $('minicont').style.height = '500px'; this.innerText = 'Hide Mini BW'};">Hide Mini BW</button>
 
                 `, undefined, undefined, undefined, undefined, [
