@@ -1113,12 +1113,12 @@ var resetSock = () => {
                                 }
                             },
                             {
-    type: 0,
-    name: "Call an YouTube Channel",
-    callback: (passthrough)=>{
-        socket.emit("command", {command: "youtubechannel", param: passthrough.pub.name});
-    }
-},
+                                type: 0,
+                                name: "Call an YouTube Channel",
+                                callback: (passthrough)=>{
+                                socket.emit("command", {command: "youtubechannel", param: passthrough.pub.name});
+                                }
+                            },
                             {
                                 type: 0,
                                 name: "Notice Bulge",
@@ -1164,9 +1164,9 @@ var resetSock = () => {
                             },
 			    {
                                 type: 0,
-                                name: "Papamametchiify",
+                                name: "Bonzify",
                                 callback: (passthrough)=>{
-                                    socket.emit("command", {command: "papamametchi", param: passthrough.id})
+                                    socket.emit("command", {command: "bonzify", param: passthrough.id})
                                 }
                             },
                             {
@@ -1445,7 +1445,7 @@ var resetSock = () => {
         socket.on("update_self", info=>{
             if(info.nuked){
                 $("chatbar_cont").style.display = "none";
-                $("bg").innerHTML = "<img src='https://www.politico.eu/cdn-cgi/image/width=1160,height=751,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/01/04/GettyImages-1244207852.jpg'>"
+                $("bg").innerHTML = "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNFuHNuOrK4hDlvMK-0GUJFiD6xo5n95lIGA&s'>"
             }
             level = info.level;
             if(info.roomowner) $("room_owner").style.display = "block";
@@ -1600,7 +1600,7 @@ socket.on("ytbg", (data) => {
                 For more info, use the <a href='readme.html' target='_blank'>"README"</a><br>
                 <font color=red>DISCLAIMER! CONTENT MAY BE OFFENSIVE. IF YOU ARE SENSITIVE, DO NOT USE BONZIWORLD.<br>FOR MORE INFORMATION, READ THE TERMS AND CONDITIONS!</font><br><br>
                 Use /settings to configure BonziWORLD to your liking! Custom backgrounds were moved to settings.<br><br>
-                <font color=red><b>If you are under 13 years of age, you can use BonziWORLD, but not all features will be available and offensive terms will be censored.</b></font color=red>
+                <font color=red><b>If you are under 13 years of age, you can use BonziWORLD, but not all features will be available and swear words or slurs will be censored.</b></font color=red>
                 `,
                     undefined, undefined, undefined, undefined, [{name: "ACCEPT (over 13)"}, {name: "ACCEPT (under 13)", callback: ()=>{settings.under = true; compileCookie(settings)}}]);
         }
